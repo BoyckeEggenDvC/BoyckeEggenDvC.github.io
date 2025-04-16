@@ -1,4 +1,2 @@
-<script>
 var i = document.getElementByName("Testpart");
-i[0].innerhtml = "<div>test JS ext</div>";
-</script>
+i[0] = "<div>test JS ext</div>";
