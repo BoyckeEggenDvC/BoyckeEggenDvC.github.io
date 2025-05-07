@@ -1,2 +1,13 @@
-var i = document.getElementsByName("Testpart");
-i[0].innerHTML = "<div>test JS ext</div>";
+function setGreen()
+{
+    var oi = document.body
+    oi.classList.remove("red");
+    oi.classList.add("green");
+
+}
+function setRed()
+{
+    var oi = document.body
+    oi.classList.remove("green");
+    oi.classList.add("red");
+}
