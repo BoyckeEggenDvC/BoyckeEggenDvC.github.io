@@ -1,13 +1,12 @@
-function setGreen()
+function LoadJson() 
 {
-    var oi = document.body;
-    oi.classList.remove("red");
-    oi.classList.add("green");
-
-}
-function setRed()
-{
-    var oi = document.body;
-    oi.classList.remove("green");
-    oi.classList.add("red");
+    fetch('./DID1_Docent.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();  
+        })
+        .then(data => console.log(data))  
+        .catch(error => console.error('Failed to fetch data:', error)); 
 }

@@ -1,0 +1,40 @@
+.mainWrapper{
+    display: flex;
+}
+
+.button-class {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.nxt{
+    position: fixed;
+    right:20px;
+    top:50%;
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: black 0px 0px 10px 5px;
+}
+
+h1{
+    font-size: 30pt;
+}
+section{
+    width: 20%;
+    text-align: center;
+}
